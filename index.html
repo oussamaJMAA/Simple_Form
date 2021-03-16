@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Formulaire d'inscription</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js"></script>
+        
+	</head>
+	<body>
+		
+            <nav>
+
+                <a href="#">Home</a>
+                <a href="#hi">Sign up</a>
+                <a href="#">Blog</a>
+                <a href="#">About Us</a>
+                <a href="#">Credits</a>
+                
+                
+                
+                <div class="animation home"></div>
+                
+                
+                </nav>
+                <form action="index.html" method="post" nom="form">
+
+
+
+
+                    <fieldset>
+                    
+                    
+                    <table>
+                    <legend>Formulaire d'inscription</legend>
+                    <tr>
+                    <td>
+                        <label> Votre nom</label>
+                    
+                    </td>
+                    <td>
+                    <input type="text"  id="nom" placeholder="saisir votre nom">
+                    <span class="error" id="errorname"></span></p>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Votre prénom</label>
+                        
+                        </td>
+                        <td>
+                        <input type="text" id="prenom" placeholder="saisir votre prenom">
+                      
+                        </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label> Votre Email</label>
+                            
+                            </td>
+                            <td>
+                            <input type="email" id="email" placeholder="saisir votre email">
+                        
+                            </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label> Votre Téléphone</label>
+                                
+                                </td>
+                                <td>
+                                <input type="tel" id="tel" placeholder="12-345-678" required >
+                              
+                                </td>
+                                </tr>
+                            <tr>
+                                <td>Sexe</td>
+                                <!-- Les deux inputs radio doivent avoir le meme nom -->
+                                <td>
+                                    Masculin <input type="radio" name="sexe" value="M" checked="checked">
+                                    Féminin <input type="radio" name="sexe" value="F">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><label>Pays</label></td>
+                                <td>
+                                    <select>
+                                    <option>France</option>
+                                    <option>Espagne</option>
+                                    <option>Italie</option>
+                                </select>
+                    
+                    
+                    
+                            </td>
+                            </tr>
+                            <tr>
+                                <!-- Pour réstreindre le type des fichiers on utilise l'attribut "accept" -->
+                                <td><label>Photo</label></td>
+                                <td><input type="file" accept="image/jpeg,image/png"></td>
+                            </tr>
+                            <tr>
+                            <td>Les langages préferés </td>
+                                        <td><select multiple="multiple">
+                                            <option>Java</option>
+                                            <option>C</option>
+                                            <option>C++</option>
+                                            <option>PHP</option>
+                                            <option>HTML</option>
+                                        </select> </td>
+                                    </tr>
+                                    
+                    
+                    
+                                    <tr>
+                                        <td><label>Domaines d'actvités</label></td>
+                                        <td><input type="checkbox" > Informatique <input type="checkbox" > Gestion <input type="checkbox" > Pédagogie</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><input  class ="hi" type="submit" value="Envoyer" onclick="verif();">  <input class="hi" type="reset" value="Annuler"/></td>
+                                    </tr>
+                                    
+                    
+                        </table>
+                    
+                    
+                    
+                    </fieldset>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        </form>
+                    
+                     <br>
+                     <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+				
+
+
+        
+	
+	</body>
+
+
+
+
+
+   
+
+
